@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    font-size: 20pt;
+}
+
+.barra_inicio {
+    margin: 1% 1% 0;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+h1 {
+    padding: 1% 2% 0;
+    font-size: 25pt;
+}
+
+.categorias {
+    margin: 1px 1% 1%;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
