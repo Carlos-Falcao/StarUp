@@ -45,6 +45,21 @@ header > nav > ul > li > a:hover {
     transition: all 500ms;
 }
 
+.banner {
+    position: relative;
+}
+
+.banner > img {
+    display: block;
+    width: 100%;
+}
+
+.banner > h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 section {
     width: 98%;
     margin: 1% auto;
