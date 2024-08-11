@@ -47,17 +47,38 @@ header > nav > ul > li > a:hover {
 
 .banner {
     position: relative;
+    display: inline-block;
 }
 
 .banner > img {
-    display: block;
-    width: 100%;
+    width: 600px;
+    height: auto;
+    transition: opacity 0.5s ease;
+    opacity: 1;
 }
 
-.banner > h2 {
+.nav-btn {
     position: absolute;
     top: 50%;
-    left: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.ant-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 section {
