@@ -153,3 +153,25 @@ section > h2 {
 .nome_produto {
     text-align: left;
 }
+
+footer {
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    width: 100%;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.area_divulgacao {
+    padding: 2%;
+}
+
+.contatos {
+    display: flex;
+    padding: 2%;
+}
+
+.area_descricao {
+    font-size: 1.1rem;
+    padding: 2%;
+}

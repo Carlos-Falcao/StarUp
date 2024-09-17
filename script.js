@@ -1,4 +1,4 @@
-const imagens = ['banner1.png', 'imagem2.jpg', 'imagem3.jpg'];
+const imagens = ['banner1.png', 'banner2.jpg', 'banner3.jpg'];
 let currentIndex = 0;
 
 const imgElement = document.getElementById('mainImage');
