@@ -85,6 +85,7 @@ header > nav > ul > li > a:hover {
     top: 50%;
     transform: translateY(-50%);
     background-color: #ffffff00;
+    color: white;
     border: none;
     padding: 15px;
     font-size: 50px;
@@ -158,20 +159,29 @@ footer {
     background-color: rgb(36, 34, 34);
     display: flex;
     width: 100%;
-    border: 2px solid purple;
-    border-radius: 5px;
 }
 
 .area_divulgacao {
     padding: 2%;
+    margin-right: 2%;
 }
 
 .contatos {
     display: flex;
     padding: 2%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .area_descricao {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 2%;
+}
+
+.contatos > p {
+    margin-left: 1%;
+}
+
+.bi {
+    margin-right: 5px;
 }
