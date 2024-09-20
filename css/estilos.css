@@ -185,3 +185,19 @@ footer {
 .bi {
     margin-right: 5px;
 }
+
+.fazer-login {
+    background-color: black;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    margin: 1% 25%;
+    font-size: 1.3rem;
+}
+
+.fazer-login h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: cyan;
+    font-style: italic;
+}
