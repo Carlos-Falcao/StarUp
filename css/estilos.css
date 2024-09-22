@@ -17,7 +17,7 @@ header {
     padding: 1%;
     display: grid;
     position: sticky;
-    grid-template-columns: 15% 65% 20%;    
+    grid-template-columns: 15% 65% 20%;   /*Espaço utilizado por cada bloco*/ 
     top: 0;
 }
 
@@ -192,6 +192,7 @@ footer {
     border-radius: 5px;
     margin: 1% 25%;
     font-size: 1.3rem;
+    line-height: 2.5rem;
 }
 
 .fazer-login h1 {
@@ -200,4 +201,52 @@ footer {
     font-size: 1.8rem;
     color: cyan;
     font-style: italic;
+}
+
+.fazer-login hr {
+    width: 93%;
+    border: 1px solid cyan;
+    border-radius: 10px;
+}
+
+.box-login {
+    padding: 3%;
+}
+
+.box-login input {
+    margin-left: 1%;
+    margin-bottom: 1.5%;
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+#acpet-login {
+    width: 17%;
+    font-size: 17px;
+    margin-top: 2%;
+    margin-left: 40%;
+    border: 2px solid cyan;
+    box-shadow: 0 0 10px cyan;
+    border-radius: 10px;
+    background-color: black;
+    color: cyan;
+    transition: all 400ms;
+}
+
+#acpet-login:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 20px purple;
+    color: purple;
+    border: 2px solid purple;
+    width: 19%;
+    font-size: 19px;
+    margin-left: 39%;
+}
+
+.link-conta {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
