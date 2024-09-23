@@ -125,7 +125,7 @@ section > h2 {
 }
 
 .lista_produto_item {
-    width: 15%;
+    width: 13%;
     margin: 1% 5% 2%;
     text-align: center;
     border: 1px solid black;
@@ -216,8 +216,8 @@ footer {
 .box-login input {
     margin-left: 1%;
     margin-bottom: 1.5%;
-    width: 80%;
-    font-size: 1rem;
+    width: 99%;
+    font-size: 1.2rem;
     border-radius: 10px;
 }
 
@@ -246,7 +246,14 @@ footer {
 
 .link-conta {
     color: white;
+    text-decoration: none;
+    margin-left: 46%;
+    margin-top: 0;
+}
+
+/*.link-conta {
+    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-}
+}*/
