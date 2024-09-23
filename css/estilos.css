@@ -244,16 +244,27 @@ footer {
     margin-left: 39%;
 }
 
+.line-ou {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.line-ou::before, .line-ou::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 10px;
+}
+
+.line-ou span {
+    font-size: 16px;
+    color: #822659;
+}
+
 .link-conta {
     color: white;
     text-decoration: none;
-    margin-left: 46%;
+    margin-left: 41%;
     margin-top: 0;
 }
-
-/*.link-conta {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}*/
