@@ -10,8 +10,11 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(45deg, black, purple, black, purple);
-            display: flex;
+            background-image: url(./img/aaa.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -20,6 +23,7 @@
         
         .login-inicial {
             background-color: black;
+            margin: 5% 20% 5% 20%;
             color: white;
             padding: 2%;
             border: 2px solid black;
@@ -34,7 +38,7 @@
             font-size: 1.2rem;
         }
 
-        .login-inicial input {
+        .inp {
             width: 95%;
             padding: 10px;
             margin: 10px 0;
@@ -44,7 +48,7 @@
         }
 
         .botoes {
-            width: 100%;
+            width: 20%;
             padding: 15px;
             background-color: #007bff;
             border: none;
@@ -53,7 +57,8 @@
             font-size: 16px;
             cursor: pointer;
             margin-bottom: 15px;
-            margin-top: 15px;
+            margin-top: 5%;
+            margin-left: 17%;
         }
 
         .botoes:hover {
@@ -98,24 +103,24 @@
         <form action="index.html">
             <!--NOME-->
             <h2 for="nome_login">Nome completo</h2>
-            <input id="nome_login" type="text" name="username" placeholder="Nome de Usuário" required>
+            <input class="inp" id="nome_login" type="text" name="username" placeholder="Nome de Usuário" required>
             <br>    
 
             <!--E-MAIL-->
             <h2 for="email_login">E-mail</h2>
-            <input id="email_login" type="email" placeholder="ex:seunome@email.com.br" required>
+            <input class="inp" id="email_login" type="email" placeholder="ex:seunome@email.com.br" required>
             <br>
 
             <h2 for="tel_login">Telefone (opcional)</h2>
-            <input id="tel_login" type="tel" placeholder="ex: 11971923030">
+            <input class="inp" id="tel_login" type="tel" placeholder="ex: 11971923030">
             <br>
 
             <h2 for="senha_login">Senha</h2>
-            <input id="senha_login" type="password" placeholder="Senha" required>
+            <input class="inp" id="senha_login" type="password" placeholder="Senha" required>
             <br>
 
             <h2 for="confir_senha">Confirmar senha</h2>
-            <input id="confir_senha" type="password" placeholder="Senha" required>
+            <input class="inp" id="confir_senha" type="password" placeholder="Senha" required>
 
             <button class="botoes" type="submit">Criar Conta</button>
             <input class="botoes" type="button" id="logar_conta" onclick="location.href = 'iniciar_sessao.html'" value="Iniciar sessão">
