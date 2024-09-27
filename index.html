@@ -16,19 +16,19 @@
     <header>
         <img src="./img/logo-nome-corte.png"> <!--Colocar a logo da Loja-->
 
-        <input type="search" class="campo_busca" placeholder="O que você esta buscando?">
+        <input type="search" class="campo_busca" id="campo_busca" placeholder="O que você esta buscando?">
 
         <nav>
-            <ul>
-                <li>
-                    <a href="">
+            <ul class="menu">
+                <li class="item">
+                    <a href="index.html">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                         </svg>
                         <p>Início</p>
                     </a>
                 </li>
-                <li>
+                <li class="item">
                     <a href="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
                             <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
@@ -36,7 +36,7 @@
                         <p>Carrinho</p>
                     </a>
                 </li>
-                <li>
+                <li class="item">
                     <a href="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
@@ -49,6 +49,12 @@
 
     </header>
 
+    <div id="cart">
+        <ul>
+            <li>Carrinho vazio</li>
+        </ul>
+    </div>
+
     <section class="banner">
 
         <button class="nav-btn ant-btn" id="antBtn">
@@ -57,7 +63,9 @@
             </svg>
         </button>
 
-        <img id="mainImage" src="banner1.png" alt="Imagem">
+        <a href="" id="link_banner">
+            <img id="mainImage" src="banner1.png" alt="Imagem">
+        </a>
 
         <button class="nav-btn next-btn" id="nextBtn">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
@@ -75,8 +83,9 @@
                     <!--Produto 1-->
                     <li class="lista_produto_item">
                         <img class="image_produto" src="./img/produtos/produto1.jpeg">
-                        <h3 class="nome_produto"></h3>
-                        <p>R$</p>
+                        <h3 class="nome_produto">Fone</h3>
+                        <p class="preco-produto">R$ 99,99</p>
+                        <input type="button" id="btn-cart" value="Add carrinho">
                     </li>
                     <!--Produto 2-->
                     <li class="lista_produto_item">
@@ -142,5 +151,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="inicio.js"></script>
+    <script src="carrinho.js"></script>
 </body>
 </html>

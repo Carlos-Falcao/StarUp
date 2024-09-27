@@ -65,6 +65,26 @@ header > nav > ul > li > a:hover {
     margin-top: 2%;
 }
 
+#cart {
+    position: fixed;
+    top: 120px;
+    left: 86%;
+    display: block;
+    width: 120px;
+    font-size: 1.1rem;
+    border: 1px solid cyan;
+    border-radius: 5px;
+    background-color: black;
+    z-index: 4;
+}
+
+#cart li {
+    background-color: rgba(61, 56, 56, 0.671);
+    margin: 2px;
+    border-radius: 2px;
+    text-align: center;
+}
+
 .banner {
     position: relative;
     display: inline-block;
@@ -74,7 +94,12 @@ header > nav > ul > li > a:hover {
     margin: 0;
 }
 
-.banner > img {
+.banner > a {
+    width: 100%;
+    display: block;
+}
+
+.banner > a > img {
     width: 100%;
     height: 300px;
     transition: opacity 0.5s ease;
@@ -91,7 +116,7 @@ header > nav > ul > li > a:hover {
     padding: 15px;
     font-size: 50px;
     cursor: pointer;
-    z-index: 4;
+    z-index: 3;
 }
 
 .ant-btn {

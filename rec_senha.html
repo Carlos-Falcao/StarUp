@@ -73,6 +73,14 @@
             color: cyan;
             margin-left: 38%;
             margin-top: 3%;
+            margin-bottom: 5%;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+
+        #btn-rec:hover {
+            background-color: rgba(53, 49, 49, 0.712);
+            font-size: 1.2rem;
         }
 
         footer {
@@ -124,6 +132,8 @@
             <p style="padding: 1%;">E-mail</p>
             <input type="email" placeholder="E-mail" id="email-rec" required>
             <br>
+            <input type="text" placeholder="Nova senha" id="email-rec" required>
+            <input type="text" placeholder="Confirmar senha" id="email-rec" required>
             <input type="button" value="Enviar E-mail" onclick="location.href= 'iniciar_sessao.html'" id="btn-rec">
         </form>
     </div>
