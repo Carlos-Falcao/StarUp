@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -70,7 +71,7 @@ header > nav > ul > li > a:hover {
     top: 120px;
     left: 86%;
     display: block;
-    width: 120px;
+    width: 140px;
     font-size: 1.1rem;
     border: 1px solid cyan;
     border-radius: 5px;
@@ -83,6 +84,21 @@ header > nav > ul > li > a:hover {
     margin: 2px;
     border-radius: 2px;
     text-align: center;
+}
+
+#btn-cart {
+    background-color: black;
+    color: cyan;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    margin: 3%;
+    transition: all 0.5s;
+}
+
+#btn-cart:hover {
+    color: purple;
+    font-size: 1.2rem;
 }
 
 .banner {
