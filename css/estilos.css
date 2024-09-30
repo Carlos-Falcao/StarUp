@@ -53,7 +53,7 @@ header > nav > ul > li > a {
 }
 
 header > nav > ul > li > a:hover {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: rgb(84, 170, 173);
     transition: all 500ms;
 }
