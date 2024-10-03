@@ -70,7 +70,7 @@ header > nav > ul > li > a:hover {
     position: fixed;
     top: 120px;
     left: 86%;
-    display: block;
+    display: none;
     width: 140px;
     font-size: 1.1rem;
     border: 1px solid cyan;
@@ -204,7 +204,7 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
-  
+
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
