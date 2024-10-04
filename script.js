@@ -1,5 +1,5 @@
 const imagens = ['banner1.png', 'banner2.jpg', 'banner3.jpg'];
-const links = ['./img/produtos/produto1.jpeg', '#', '#']
+const links = ['#', '#', './img/produtos/produto1.jpeg']
 let currentIndex = 0;
 
 const imgElement = document.getElementById('mainImage');
