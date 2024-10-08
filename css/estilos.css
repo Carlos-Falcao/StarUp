@@ -10,6 +10,7 @@ body {
     background-attachment: fixed;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
 }
 
 header {
@@ -42,7 +43,7 @@ header > nav > ul > li {
     line-height: 1.3rem;
 }
 
-header > nav > ul > li > a {
+header > nav > ul > li > a, div {
     text-decoration: none;
     color: white;
     text-align: center;
@@ -53,6 +54,12 @@ header > nav > ul > li > a {
 }
 
 header > nav > ul > li > a:hover {
+    font-size: 1.7rem;
+    color: rgb(84, 170, 173);
+    transition: all 500ms;
+}
+
+header > nav > ul > li > div:hover {
     font-size: 1.7rem;
     color: rgb(84, 170, 173);
     transition: all 500ms;
@@ -304,6 +311,8 @@ footer {
     font-size: 19px;
     margin-left: 39%;
 }
+
+/* CRIAÇÃO DA LINHA */
 
 .line-ou {
     display: flex;

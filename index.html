@@ -29,12 +29,12 @@
                     </a>
                 </li>
                 <li class="item">
-                    <a href="#" id="mostraCarrinho">
+                    <div id="mostraCarrinho">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
                             <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
                         </svg>
                         <p>Carrinho</p>
-                    </a>
+                    </div>
                 </li>
                 <li class="item">
                     <a href="">
@@ -55,6 +55,16 @@
             <!--Produtos no carrinho apareceram aqui-->
         </ul>
     </div>
+
+    <!-- <div id="perfil">
+        <nav>
+            <ul>
+                <li>
+                    
+                </li>
+            </ul>
+        </nav>
+    </div> -->
 
     <section class="banner">
 
@@ -86,28 +96,28 @@
                         <img class="image_produto" src="./img/produtos/produto1.jpeg">
                         <h3 class="nome_produto">Fone</h3>
                         <p class="preco-produto">R$ 23,90</p>
-                        <input type="button" id="btn-cart" onclick="gravar_prod()" value="Add carrinho">
+                        <input type="button" id="btn-cart" onclick="addCarrinho('Fone', 23.90)" value="Add carrinho">
                     </li>
                     <!--Produto 2-->
                     <li class="lista_produto_item">
                         <img class="image_produto" src="./img/produtos/produto3.png">
                         <h3 class="nome_produto">carro</h3>
                         <p class="preco-produto">R$ 9</p>
-                        <input type="button" id="btn-cart" onclick="gravar_prod()" value="Add carrinho">
+                        <input type="button" id="btn-cart" onclick="addCarrinho('carro', 9)" value="Add carrinho">
                     </li>
                     <!--Produto 3-->
                     <li class="lista_produto_item">
                         <img class="image_produto" src="./img/produtos/prod.png">
                         <h3 class="nome_produto"></h3>
                         <p class="preco-produto">R$</p>
-                        <input type="button" id="btn-cart" onclick="gravar_prod()" value="Add carrinho">
+                        <input type="button" id="btn-cart" onclick="addCarrinho('Fone', 23.90)" value="Add carrinho">
                     </li>
                     <!--Produto 4-->
                     <li class="lista_produto_item">
                         <img class="image_produto" src="">
                         <h3 class="nome_produto"></h3>
                         <p class="preco-produto">R$</p>
-                        <input type="button" id="btn-cart" onclick="gravar_prod()" value="Add carrinho">
+                        <input type="button" id="btn-cart" onclick="addCarrinho('Fone', 23.90)" value="Add carrinho">
                     </li>
                     <!--Produto 5-->
                     <li class="lista_produto_item">

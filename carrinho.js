@@ -1,5 +1,6 @@
 // DEFINIÇÃO DO CARRINHO
 let botaoCarrinho = document.getElementById('btn-cart');
+document.querySelector("#cart").style.display = "none";
 
 /* botaoCarrinho.addEventListener('click', function() {
     let nomeProd = document.querySelector('h3.nome_produto').innerText;
