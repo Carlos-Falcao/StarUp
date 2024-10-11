@@ -89,6 +89,7 @@ header > nav > ul > li > div:hover {
 #cart li {
     background-color: rgba(61, 56, 56, 0.671);
     margin: 2px;
+    padding: 0;
     border-radius: 2px;
     text-align: center;
 }

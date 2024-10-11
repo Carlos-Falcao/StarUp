@@ -1,6 +1,6 @@
-const imagens = ['banner1.png', 'banner2.jpg', 'banner3.jpg'];
-const links = ['#', '#', './img/produtos/produto1.jpeg']
-let currentIndex = 0;
+const imagens = ['banner1.png', 'banner2.png', 'banner3.jpg'];
+const links = ['#', './img/produtos/CAMISANEO.png', './img/produtos/fone.png']
+let currentIndex = -1;
 
 const imgElement = document.getElementById('mainImage');
 const antBtn = document.getElementById('antBtn');
@@ -30,3 +30,14 @@ nextBtn.addEventListener('click', () => {
 showImage(currentIndex);
 
 document.getElementById('link_banner').href=links[currentIndex]
+
+addEventListener("load", function() {
+    trocarBanner();
+    function trocarBanner() {
+        currentIndex ++;
+        if( currentIndex >= imagens.length)
+            currentIndex = 0;
+        setTimeout(trocarBanner, 5000);
+        showImage(currentIndex);
+    }
+})
